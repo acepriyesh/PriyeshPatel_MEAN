@@ -11,5 +11,68 @@ create/update files and exercise for commit push second time using cmd and git c
 I did not delete my existing repo as it said 1 watcher,
 So I created a new repo as: Priyesh_Mean as requested by Thaneshawara
 then Created demo6a for exercise 1 - cmd -> first time git commands
+
+Microsoft Windows [Version 10.0.22621.1778]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git init
+Initialized empty Git repository in C:/Users/acepr/Music/slmean/meanhtmlclass1and2/.git/
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git add .
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git commit -m "first commit"
+[main (root-commit) 4e63782] first commit
+ 15 files changed, 284 insertions(+)
+ create mode 100644 demo.html
+ create mode 100644 demo.txt
+ create mode 100644 demo2.html
+ create mode 100644 demo2.txt.txt
+ create mode 100644 demo3.html
+ create mode 100644 demo3.txt
+ create mode 100644 demo4.html
+ create mode 100644 demo4.txt
+ create mode 100644 demo5.html
+ create mode 100644 demo5.txt
+ create mode 100644 demo6.html
+ create mode 100644 demo6.txt
+ create mode 100644 demo6a.html
+ create mode 100644 demo6a.txt
+ create mode 100644 misc.txt
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git branch -M main
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git remote add origin git remote add origin https://github.com/acepriyesh/PriyeshPatel_MEAN.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git remote add origin https://github.com/acepriyesh/PriyeshPatel_MEAN.git
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git push -u origin main
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (17/17), 5.07 KiB | 2.53 MiB/s, done.
+Total 17 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/acepriyesh/PriyeshPatel_MEAN.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>
+
+
+Thenafter 
+Followed steps for commit and push to same repo after 
 then opened and edited demo6a with VSCode, save and do the cmd - git commands.
+
 
