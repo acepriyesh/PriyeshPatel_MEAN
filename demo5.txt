@@ -1,0 +1,62 @@
+First Time commit and push to GiT Repo.
+
+Open Folder by 'File Explorer' in which the files you like to push to repo.
+File Explorer -> Desktop -> meanhtml -> folder open inside which you have your files for repo.
+Addressbar -> (delete file path) and type cmd -> enter
+This is the folder you want to work with in cmd
+
+c:\xxx\xxx\xxx\meanclasshtml>
+
+Do the following 6 steps when for the first time. (1,2,3,6 when send time)
+
+1) git init				(initializes git)
+2) git add .				( '.' adds all files from this particular folder)
+3) git commit -m "first commit" 	(commit to git with "suitable name")
+4) git branch -M main			(to the main branch)
+5) git remote add origin https://github.com/acepriyesh/meanclasshtml.git   (need to specify url to: particular repo location we are com/push
+										either for first time or back to if worked with a diff repo)
+6) git push -u origin main		(push to origin main)
+
+	from Daniel Torres - student chat: Pushing code refers to the action of sending your code changes from a local repository to a remote repository, typically located on a version control system like Git. When you push code, you are sharing your local changes with other developers who have access to the same remote repository.
+
+Microsoft Windows [Version 10.0.22621.1778]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\acepr\Desktop\meanclasshtml>code .
+
+C:\Users\acepr\Desktop\meanclasshtml>git init
+Initialized empty Git repository in C:/Users/acepr/Desktop/meanclasshtml/.git/
+
+C:\Users\acepr\Desktop\meanclasshtml>git add .
+
+C:\Users\acepr\Desktop\meanclasshtml>git commit -m "first commit"
+[main (root-commit) bfb10f1] first commit
+ 10 files changed, 136 insertions(+)
+ create mode 100644 demo.html
+ create mode 100644 demo.txt
+ create mode 100644 demo2.html
+ create mode 100644 demo2.txt.txt
+ create mode 100644 demo3.html
+ create mode 100644 demo3.txt
+ create mode 100644 demo4.html
+ create mode 100644 demo4.txt
+ create mode 100644 demo5.html
+ create mode 100644 misc.txt
+
+C:\Users\acepr\Desktop\meanclasshtml>git branch -M main
+
+C:\Users\acepr\Desktop\meanclasshtml>git remote add origin https://github.com/acepriyesh/meanhtml.git
+
+C:\Users\acepr\Desktop\meanclasshtml>git push -u origin main
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 2.63 KiB | 898.00 KiB/s, done.
+Total 12 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/acepriyesh/meanhtml.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\acepr\Desktop\meanclasshtml>

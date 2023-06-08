@@ -1,0 +1,15 @@
+As an exercise we deleted the existing repository.
+
+Created a new repository
+
+Created a new local folder with files
+
+commit and push as like for the first time using cmd and git commands
+
+create/update files and exercise for commit push second time using cmd and git commands
+
+I did not delete my existing repo as it said 1 watcher,
+So I created a new repo as: Priyesh_Mean as requested by Thaneshawara
+then Created demo6a for exercise 1 - cmd -> first time git commands
+then opened and edited demo6a with VSCode, save and do the cmd - git commands.
+

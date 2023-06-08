@@ -1,0 +1,60 @@
+Create demo6.html and right clicked opened with vs code.
+
+File will open blank but !-> enter for the basic structure.
+
+in <body> add <h1> Just to check
+
+Save.
+
+Review by opening in browser.
+
+Render: Just to check
+
+Now to commit and push any new work/files 
+
+Again:
+
+Open Folder by 'File Explorer' in which the files you like to push to repo.
+File Explorer -> Desktop -> meanhtml -> folder open inside which you have your files for repo.
+Addressbar -> (delete file path) and type cmd -> enter
+This is the folder you want to work with in cmd
+
+c:\xxx\xxx\xxx\meanclasshtml>
+
+Need do the only following 4 steps when for the second time.
+
+1) git init				(initializes git)
+2) git add .				( '.' adds all files from this particular folder (full directory) with any changes saved to any other files)
+3) git commit -m "first commit" 	(commit to git with "suitable name")
+	
+*(4))git branch -M main -> No need again.
+*(5))'git remote add origin' -> No need again because you are cummiting and pushing to the same repo as just now before.
+
+4(6)) git push 				(push to git (as previously specified))
+
+Microsoft Windows [Version 10.0.22621.1778]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\acepr\Desktop\meanclasshtml>git init
+Reinitialized existing Git repository in C:/Users/acepr/Desktop/meanclasshtml/.git/
+
+C:\Users\acepr\Desktop\meanclasshtml>git add .
+
+C:\Users\acepr\Desktop\meanclasshtml>git commit -m "added demo6"
+[main 3d6a846] added demo6
+ 2 files changed, 11 insertions(+)
+ create mode 100644 demo6.html
+ create mode 100644 demo6.txt
+
+C:\Users\acepr\Desktop\meanclasshtml>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 475 bytes | 475.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/acepriyesh/meanhtml.git
+   bfb10f1..3d6a846  main -> main
+
+C:\Users\acepr\Desktop\meanclasshtml>
