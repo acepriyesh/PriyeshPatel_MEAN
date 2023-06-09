@@ -75,4 +75,28 @@ Thenafter
 Followed steps for commit and push to same repo after 
 then opened and edited demo6a with VSCode, save and do the cmd - git commands.
 
+Microsoft Windows [Version 10.0.22621.1778]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git init
+Reinitialized existing Git repository in C:/Users/acepr/Music/slmean/meanhtmlclass1and2/.git/
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git add .
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git commit -m "added demo6a"
+[main e81f923] added demo6a
+ 2 files changed, 75 insertions(+)
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.55 KiB | 1.55 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/acepriyesh/PriyeshPatel_MEAN.git
+   4e63782..e81f923  main -> main
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>
 

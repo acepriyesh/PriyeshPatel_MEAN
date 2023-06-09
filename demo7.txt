@@ -1,0 +1,17 @@
+To Import from a repo in to local folder.
+
+open repo e.g. https://github.com/Thaneshwara848/MEAN-Stack.git
+copy code icon
+create a new local folder (slmeanThaneshwar(for exercise))
+address bar cmd
+cmd -> 
+slmeanThaneshwar>git clone https://github.com/Thaneshwara848/MEAN-Stack.git
+
+when cmd was done i saw the import appear with my own eyes.
+Import was repo(reponame/folder) MEAN-Stack.git
+with 		.git
+folder		html
+txtfile		d.txt
+
+What is in .Git folder? --source:toolsqa.com
+A . git folder is required to log every commit history and every other information required for your remote repository, version control, commits etc. These things are saved in different folders which have different meanings. Once the folder is created, open it and see the contents of the folder.Nov 19, 2021
