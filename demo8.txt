@@ -2,6 +2,40 @@ added demo 8
 
 Followed the 4 steps to puch and commit
 
+1) git init
+2) git add .
+3) git commit -m "added demo7and8"
+4) git push
+
 repeat practice
 
 Thank you Thaneshwar
+
+Microsoft Windows [Version 10.0.22621.1778]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git init
+Reinitialized existing Git repository in C:/Users/acepr/Music/slmean/meanhtmlclass1and2/.git/
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git add .
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git commit -m "added demo7and8"
+[main 76505cb] added demo7and8
+ 5 files changed, 71 insertions(+)
+ create mode 100644 demo7.html
+ create mode 100644 demo7.txt
+ create mode 100644 demo8.html
+ create mode 100644 demo8.txt
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.43 KiB | 1.43 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/acepriyesh/PriyeshPatel_MEAN.git
+   e81f923..76505cb  main -> main
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>

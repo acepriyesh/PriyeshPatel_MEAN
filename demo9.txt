@@ -1,0 +1,34 @@
+If you check github repo it will still only show the no. of branched you had,
+in our case 1 (main),
+before you just created 1 more new branch PriyeshP
+
+now that we created more files with vscode in our folder with new branch.
+cmd last state
+--------------
+>git branch
+*PriyeshP
+ main
+
+Now lets save the changes to demo9.html and demo9.txt
+then we follow the 4 steps.
+
+>git init
+>git add .
+>git commit -m "added demo9"
+>git push
+fatal: The current branch PriyeshP has no upstream branch.
+To push the current branch and set the remote as upstream, use 
+
+    git push --set -upstream origin PriyeshP
+
+To have this happen automatically for branches without a tracking
+upstream , see 'push.autoSetupRemote' in 'git help config'.
+
+>git push --set -upstream origin PriyeshP
+Enumerating objects: n, done
+...
+
+>
+
+this should update our repo with the new branch after we commit and push the new branch
+check it.

@@ -1,0 +1,100 @@
+Create a New Branch in an existing repo
+
+Method 1) 
+
+*a) create a new branch, give name and switch to it - in one command
+	>git checkout -b newbranch name
+		checkout: means change from branch,
+		-b: means to the new branch im creating now
+		"": with the name inside the quotes.
+
+*b) check status of the branch you are in
+	>git status
+
+*c) check which branch we are in
+	>git branch
+
+cmd
+---
+*a>git checkout -b "newbranchname"
+Switched to new branch "newbranchname"
+
+*b>git status
+On Branch newbranchname
+nothing to commit, working tree clean
+
+*c>git branch
+*newbranchname
+ main
+-------------------------------------------
+Method 2)
+
+*a) check which branch in currently (not necessary)
+	>git branch
+		*branchnameyouareinnow
+		 notinthisbranchwithoutasterisk
+		 notinthatbranchwithoutasterisk
+
+*b) create a new branch, give a name
+	>git branch -c newbranchname
+		git branch: we are dealing with branch
+		-c:	create new branch
+		newbranchname is the name it is having
+
+*c) check which branch we are in (we are in * branch)
+	>git branch
+		*branchnameyouareinnow
+		 notintheonejustcreated
+		 notinthetwojustcreated
+
+*d) change to branch desired
+	>git checkout branchnamedesiredto
+		checkout: means change from branch,
+		branchnamedesiredto: to this franch
+
+*e) check if we are in newbranchname, obviously we are but good practice to check
+	>git branch
+		*branchnameyouareinnow
+		 notintheonejustcreated
+		 notinthetwojustcreated
+
+cmd
+---
+*a>git branch
+* main
+
+*b>git branch -c newbranchname
+
+*c>git branch
+   newbranchname
+* main
+
+*d>git checkout newbranchname
+Switched to branch 'newbranchname'
+M	demo8.txt
+Your branch is up to date with 'origin/main'
+
+*e)git branch
+* newbranchname
+  main
+---------------------
+Microsoft Windows [Version 10.0.22621.1778]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git branch
+* main
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git branch -c PriyeshP
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git branch
+  PriyeshP
+* main
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git checkout PriyeshP
+Switched to branch 'PriyeshP'
+M       demo8.txt
+Your branch is up to date with 'origin/main'.
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git branch
+* PriyeshP
+  main
