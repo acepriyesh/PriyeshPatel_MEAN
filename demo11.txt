@@ -1,0 +1,30 @@
+Lists
+ordered, unordered, 
+
+<h1>Employee Names </h1>
+   <!-- Not a practical method for larger numbers, 
+    1) NameOne <br>
+    2) NameTwo <br>
+    3) NameThree <br>
+    4) NameFour <br>
+    5) NameFive <br>
+    6) NameSix <br>
+    7) NameSeven <br>
+   -->
+    <ol> List in order of ascending numbers by default
+    <ol type="A"> List in order of ascending CAPITAL letters by type selected
+                continues with AA after Z. 
+                continues with BA-BZ after AZ.
+                continues with CA-CZ after BZ..... and so on.
+
+    <ol type="a"> List in order of ascending small letters by type selected
+    <ol type="I"> List in order of ascending capital roman numbers
+    <ol type="i"> List in order of ascending small roman numbers
+
+    And more types available
+    -----------------------------------------------------------------------
+    <ul> unordered list type="disc" (default)
+                        type="circle"
+                        type="square"
+
+    And more types available

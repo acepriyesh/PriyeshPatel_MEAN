@@ -1,0 +1,277 @@
+source - w3schools
+The <caption> tag defines a table caption. 
+The <caption> tag must be inserted immediately after the <table> tag. 
+Tip: By default, a table caption will be center-aligned above a table.
+
+The Product Info Table
+<table>
+
+<caption>Product info<caption>
+
+1) Identify no of headings required at the top and create as many rows (2)
+
+<tr>    <th></th> <th></th>     <tr>
+
+2) Create the remaining rows required. ()
+
+<tr>    <td></td> <td></td>     <tr>
+<tr>    <td></td> <td></td>     <tr>
+<tr>    <td></td> <td></td>     <tr>
+<tr>    <td></td>               <tr>
+
+3) Give the first <td rowspan="3"> in the first <tr> for data
+4) <!-- comment out the first <td> in the remaining <tr> s.
+
+5) Give the <td colspan="2"> in the last <tr>
+
+6) Give <table border="3" cellpadding="10" cellspacing="5"
+----------------------------------------------------------------------
+A simple school time table
+
+1) Identify how many total rows required
+2) Identify which ones are heading rows and which ones are data rows
+3) Create structure
+4) Enter data
+5) Style with HTML
+------------------------------------------------------------------------------------------------
+Practicing with the simple school table first paved the ways for creating the Highschool table.
+Sameway this Highschool timetable will help create slightly more complex table structures.
+------------------------------------------------------------------------------------------------
+A Highschool Time Table: Prototype 1
+
+    Remember: Even the seasoned pros take more than one iteration.
+                Things become perfect with trial, error and improvement.
+                This guideline went through many trials, errors and improvements and research.
+                Even then its not perfect as I'm just a student, for now.
+                But I know how to teach what I know. 
+                Teaching takes more effort than learning.
+                Thank you teachers.
+        Data can be entered in order of simplicity.
+            e.g.by row covering each column in it.
+                by first column in each row and any columns that span
+                by columns only for all rows
+                etc.
+        Regularly check your table along as you construct it.
+        Give your table a border the first thing so 
+        you can see filled in and empty cells as you input data.
+
+1) Identify and create total number of table rows required .
+<table>
+    1<tr></tr>  
+    2<tr></tr> 
+    3<tr></tr> 
+    4<tr></tr> 
+    5<tr></tr> 
+    6<tr></tr> 
+    7<tr></tr>
+</table>
+
+2) Identify total number of columns required in the table. Add as many headings in the first row.
+1<tr>
+    1<th></th>   
+    2<th></th>   
+    3<th></th>   
+    4<th></th>   
+    5<th></th>   
+    6<th></th>   
+    7<th></th>   
+    8<th></th>   
+    9<th></th>
+1</tr>
+
+3) Repeat above with table data for the remaining 6 rows.  
+Note: the 1st column is days so you can give all first columns in all rows <th> tag for bold text.
+        Also 5th column is also bold and text looks bigger. Consider <p>,<strong>, or <h3> 
+    Otherwise it depends on what is the design structure, where individial <tr> tag may be styled accordingly.
+    
+
+    The remaining rows can look same if the structure is almost consistant.
+    Adjust each row as needed as you enter data.
+<tr>
+        <th>Days</th>
+    <td></td>
+    <td></td>
+    <td></td>
+        <th>LUNCH</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+<tr>
+
+a) I entered days in first columns of all rows. Check table appearance.
+b) then I entered time in the middle cloumn of first row and 'LUNCH' for all other rows. Check table appearance.
+    LUNCH in vertical format can be dealt with later on.
+    Always contruct your table first and format and style later.
+c)  Now its easier to follow by either row or column. Remember to repeat spanning data for now.
+    Format later.
+    
+    I started with row 2: Monday. Because I dont yet know how to have the Roman numbers above the times in columns.
+    Check table appearance.
+   
+    Looks like giving cellpadding now is not a bad idea. 
+        <table border="3 cellpadding"10">                                   Check table appearance
+    
+    Also caption for the table.
+        <caption>High School Time Table</caption>                           Check table appearance
+
+    I think not a bad idea to <colspan="3"> Lab cells right now.
+        comment out the other two labs                                      Check table appearance
+
+d) Do row Tuesday accordingly                                              
+    started with <colspan="3"> and commented out other two labs
+    and then after input Eng, Che, Mat, and SPORTS.                         Check table appearance
+
+e) Wednesday, Mat, Phy, Eng, (LUNCH aready there (Smart!!)), Che
+    then <colspan> for Librabry and comment out the other two.              Check table appearance
+
+f) Thursday, Phy, Eng, Che, (LUNCH aready there (Smart!!)),
+    then <colspan> for LAB, and comment out the other two, and Mat.         Check table appearance
+
+g) Friday, <colspan> for LAB and comment out the other two.
+     (LUNCH aready there (Smart!!)), Mat, che, Eng, Phy.                    Check table appearance
+
+h) Saturday, Eng, Che, Mat, (LUNCH aready there (Smart!!)),
+    then <colspan> for SEMINAR, and comment out the other two.              Check table appearance
+
+*! Did you know I put data in cells even though theyre commented out!*
+
+Looks like I should increase the padding.                                   Check table appearance
+
+Now the parts I dont know how to do, so I will try to use my logic at first.
+
+i) <rowspan="6">LUNCH on Monday and comment out the rest of the days.       Check table appearance
+    I dont know how to do it vertical, I will try to figure out.
+
+j) for the times I used <br> after the Roman numbers. 
+    Although it looks right, but it may not be.                             Check table appearance
+
+k) Dont know how to do 'LUNCH' vertical
+    Also Dont know how to center the data.
+
+Thats it for me I got it to look almost identical but not quite.
+--------------------------------------------------------------------------------------------------- 
+Here's the actual code I will practice from geeksforgeeks.com:
+
+<!DOCTYPE html>
+<html>
+ 
+<body>
+    <h1>TIME TABLE</h1>
+    <table border="5" cellspacing="0" align="center">
+        <!--<caption>Timetable</caption>-->
+        <tr>
+            <td align="center" height="50"
+                width="100"><br>
+                <b>Day/Period</b></br>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>I<br>9:30-10:20</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>II<br>10:20-11:10</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>III<br>11:10-12:00</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>12:00-12:40</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>IV<br>12:40-1:30</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>V<br>1:30-2:20</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>VI<br>2:20-3:10</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>VII<br>3:10-4:00</b>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Monday</b></td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Mat</td>
+            <td align="center" height="50">Che</td>
+            <td rowspan="6" align="center" height="50">
+                <h2>L<br>U<br>N<br>C<br>H</h2>
+            </td>
+            <td colspan="3" align="center"
+                height="50">LAB</td>
+            <td align="center" height="50">Phy</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Tuesday</b>
+            </td>
+            <td colspan="3" align="center"
+                height="50">LAB
+            </td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Che</td>
+            <td align="center" height="50">Mat</td>
+            <td align="center" height="50">SPORTS</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Wednesday</b>
+            </td>
+            <td align="center" height="50">Mat</td>
+            <td align="center" height="50">phy</td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Che</td>
+            <td colspan="3" align="center"
+                height="50">LIBRARY
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Thursday</b>
+            </td>
+            <td align="center" height="50">Phy</td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Che</td>
+            <td colspan="3" align="center"
+                height="50">LAB
+            </td>
+            <td align="center" height="50">Mat</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Friday</b>
+            </td>
+            <td colspan="3" align="center"
+                height="50">LAB
+            </td>
+            <td align="center" height="50">Mat</td>
+            <td align="center" height="50">Che</td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Phy</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Saturday</b>
+            </td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Che</td>
+            <td align="center" height="50">Mat</td>
+            <td colspan="3" align="center"
+                height="50">SEMINAR
+            </td>
+            <td align="center" height="50">SPORTS</td>
+        </tr>
+    </table>
+</body>
+ 
+</html>

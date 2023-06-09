@@ -6,5 +6,57 @@ tags <h1>to<h6>
         New line starts after skipping one.
     <hr> horiaontal line. starts after a line gap between just like <p>
     </> close tags with slash
-    some tags are self closing and we do not have to close them. e.g. br, hr, etc 
+    some tags are self closing and we do not have to close them. e.g. br, hr, img etc 
+
+Created a new branch: codingstartsdemo10
+and successfully pushed to new branch:
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git checkout -b "codingstartsdemo10"
+Switched to a new branch 'codingstartsdemo10'
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git branch
+  PriyeshP
+* codingstartsdemo10
+  main
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git init
+Reinitialized existing Git repository in C:/Users/acepr/Music/slmean/meanhtmlclass1and2/.git/
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git add .
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git commit -m "added demo10"
+[codingstartsdemo10 c36eb9e] added demo10
+ 3 files changed, 46 insertions(+), 1 deletion(-)
+ create mode 100644 demo10codingstarts.html
+ create mode 100644 demo10codingstarts.txt
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git push
+fatal: The current branch codingstartsdemo10 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin codingstartsdemo10
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git push --set-upstream origin codingstartsdemo10
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.42 KiB | 1.42 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'codingstartsdemo10' on GitHub by visiting:
+remote:      https://github.com/acepriyesh/PriyeshPatel_MEAN/pull/new/codingstartsdemo10
+remote:
+To https://github.com/acepriyesh/PriyeshPatel_MEAN.git
+ * [new branch]      codingstartsdemo10 -> codingstartsdemo10
+branch 'codingstartsdemo10' set up to track 'origin/codingstartsdemo10'.
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>
+
+
     

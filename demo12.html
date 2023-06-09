@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Demo 12</h1>
+    ID     Name     Age    Salary     Desig 
+    100    Aye      21     50000      Clerk
+    101    Bee      24     75000      Senior
+<hr>
+    ID     Name     Age    Salary     Desig <br>
+    100    Aye      21     50000      Clerk <br>
+    101    Bee      24     75000      Senior <br>
+<hr>
+    <h3>Table Creation</h3>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Desig</th>
+    </tr>
+    <tr>
+        <td>100</td>
+        <td>Aye</td>
+        <td>21</td>
+        <td>50000</td>
+        <td>Clerk</td>
+    </tr>
+    <tr>
+        <td>200</td>
+        <td>Bee</td>
+        <td>24</td>
+        <td>75000</td>
+        <td>Senior</td>
+    </tr>
+</table>
+<hr>
+<h3> Adding Border </h3>
+<table border="10">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Desig</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Aye</td>
+        <td>21</td>
+        <td>50000</td>
+        <td>Clerk</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Bee</td>
+        <td>24</td>
+        <td>75000</td>
+        <td>Senior</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Sea</td>
+        <td>30</td>
+        <td>100000</td>
+        <td>Manager</td>
+    </tr>
+    <tr>
+        <td>104</td>
+        <td>Dee</td>
+        <td>29</td>
+        <td>100000</td>
+        <td>Manager</td>
+    </tr>
+</table>
+<hr>
+<h3>Merging two or more rows in one column</h3>
+<table border="10">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Desig</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Aye</td>
+        <td>21</td>
+        <td>50000</td>
+        <td>Clerk</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Bee</td>
+        <td>24</td>
+        <td>75000</td>
+        <td>Senior</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Sea</td>
+        <td>30</td>
+        <td>100000</td>
+        <td rowspan="3">Manager</td>
+    </tr>
+    <tr>
+        <td>104</td>
+        <td>Dee</td>
+        <td>29</td>
+        <td>100000</td>
+        <td>Manager</td>
+    </tr>
+    <tr>
+        <td>105</td>
+        <td>Eee</td>
+        <td>32</td>
+        <td>110000</td>
+        <td>Manager</td>
+    </tr>
+</table>
+<hr>
+<h3>Removing the unnecessary data overflow in the table above</h3>
+<table border="10">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Desig</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Aye</td>
+        <td>21</td>
+        <td>50000</td>
+        <td>Clerk</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Bee</td>
+        <td>24</td>
+        <td>75000</td>
+        <td>Senior</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Sea</td>
+        <td>30</td>
+        <td>100000</td>
+        <td rowspan="3">Manager</td>
+    </tr>
+    <tr>
+        <td>104</td>
+        <td>Dee</td>
+        <td>29</td>
+        <td>100000</td>
+        <!-- <td>Manager</td> -->
+    </tr>
+    <tr>
+        <td>105</td>
+        <td>Eee</td>
+        <td>32</td>
+        <td>110000</td>
+        <!-- <td>Manager</td> -->
+    </tr>
+</table>
+<hr>
+<h3>Separate columns for First and Lastnames</h3>
+<table border="10">
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Desig</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Aye</td>
+        <td>Lasty</td>
+        <td>21</td>
+        <td>50000</td>
+        <td>Clerk</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Bee</td>
+        <td>Lasty</td>
+        <td>24</td>
+        <td>75000</td>
+        <td>Senior</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Sea</td>
+        <td>Lasty</td>
+        <td>30</td>
+        <td>100000</td>
+        <td rowspan="3">Manager</td>
+    </tr>
+    <tr>
+        <td>104</td>
+        <td>Dee</td>
+        <td>Lasty</td>
+        <td>29</td>
+        <td>100000</td>
+        <!-- <td>Manager</td> -->
+    </tr>
+    <tr>
+        <td>105</td>
+        <td>Eee</td>
+        <td>Lasty</td>
+        <td>32</td>
+        <td>110000</td>
+        <!-- <td>Manager</td> -->
+    </tr>
+</table>
+<hr>
+<h3>Merging the two columns the First and Lastnames</h3>
+<table border="10">
+    <tr>
+        <th>ID</th>
+        <th colspan="2">First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Desig</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Aye</td>
+        <td>Lasty</td>
+        <td>21</td>
+        <td>50000</td>
+        <td>Clerk</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Bee</td>
+        <td>Lasty</td>
+        <td>24</td>
+        <td>75000</td>
+        <td>Senior</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Sea</td>
+        <td>Lasty</td>
+        <td>30</td>
+        <td>100000</td>
+        <td rowspan="3">Manager</td>
+    </tr>
+    <tr>
+        <td>104</td>
+        <td>Dee</td>
+        <td>Lasty</td>
+        <td>29</td>
+        <td>100000</td>
+        <!-- <td>Manager</td> -->
+    </tr>
+    <tr>
+        <td>105</td>
+        <td>Eee</td>
+        <td>Lasty</td>
+        <td>32</td>
+        <td>110000</td>
+        <!-- <td>Manager</td> -->
+    </tr>
+</table>
+<hr>
+<h3>Tidy up the table above</h3>
+<table border="10">
+    <tr>
+        <th>ID</th>
+        <th colspan="2">First Name</th>
+        <!-- <th>Last Name</th> -->
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Desig</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Aye</td>
+        <td>Lasty</td>
+        <td>21</td>
+        <td>50000</td>
+        <td>Clerk</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Bee</td>
+        <td>Lasty</td>
+        <td>24</td>
+        <td>75000</td>
+        <td>Senior</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Sea</td>
+        <td>Lasty</td>
+        <td>30</td>
+        <td>100000</td>
+        <td rowspan="3">Manager</td>
+    </tr>
+    <tr>
+        <td>104</td>
+        <td>Dee</td>
+        <td>Lasty</td>
+        <td>29</td>
+        <td>100000</td>
+        <!-- <td>Manager</td> -->
+    </tr>
+    <tr>
+        <td>105</td>
+        <td>Eee</td>
+        <td>Lasty</td>
+        <td>32</td>
+        <td>110000</td>
+        <!-- <td>Manager</td> -->
+    </tr>
+</table>
+<hr>
+<h3>For whole table at once <br> 
+    Add space inside the cells with cellpadding<br>
+    Add space between the cells with cellspacing</h3>
+</h3>
+<table border="10" cellpadding="20" cellspacing="10">
+    <tr>
+        <th>ID</th>
+        <th colspan="2">First Name</th>
+        <!-- <th>Last Name</th> -->
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Desig</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Aye</td>
+        <td>Lasty</td>
+        <td>21</td>
+        <td>50000</td>
+        <td>Clerk</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Bee</td>
+        <td>Lasty</td>
+        <td>24</td>
+        <td>75000</td>
+        <td>Senior</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Sea</td>
+        <td>Lasty</td>
+        <td>30</td>
+        <td>100000</td>
+        <td rowspan="3">Manager</td>
+    </tr>
+    <tr>
+        <td>104</td>
+        <td>Dee</td>
+        <td>Lasty</td>
+        <td>29</td>
+        <td>100000</td>
+        <!-- <td>Manager</td> -->
+    </tr>
+    <tr>
+        <td>105</td>
+        <td>Eee</td>
+        <td>Lasty</td>
+        <td>32</td>
+        <td>110000</td>
+        <!-- <td>Manager</td> -->
+    </tr>
+</table>
+
+</body>
+</html>

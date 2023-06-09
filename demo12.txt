@@ -1,0 +1,50 @@
+Tables
+
+Just putting text in a table like format in Headings and Paragraphs doesnt create tables.
+It will just be a straight line with information in a repetitve layout.
+
+For tables we use <table> tag as parent.
+Its Children would be <tr> table rows.
+Then define headings/columns for the table as <th> 
+Our first table row ends </tr>.
+The remaining <tr> table rows will be data and the data rows have <td> data tags.
+</table> table close.
+
+<th> tag makes the text <strong> or <bold>
+
+We can always add more columns by adding to <tr> using <th>.
+We can always add more rows as data by adding to <tr> using <td>
+
+we can have a border in the table with
+<table border="1"> ="1" is one of many types of borders possible.
+                    Higher the number the thicker the outside border.
+
+from source - tutorialspoint.com
+The rowspan and colspan are the attributes of <td> tag. 
+These are used to specify the number of rows or columns a cell should merge. 
+The rowspan attribute is for merging rows and 
+the colspan attribute is for merging columns of the table in HTML.-Oct 18, 2022
+
+merging two or more rows in a single column can be merged with rowspan  
+use the span tag in upper row. <td rowspan"2"> spans to cover 1 row below
+                               <td rowspan"3"> spans to cover 2 rows below
+
+But the data and cells will appear outside of the defined table. 
+Those can either be deleted or kept inside the <!-- Comments --> for future reference.
+
+We can also merge two or more columns using the colspan in similar fashion.
+merging two or more columns spans to the right.
+delete or comment out the column on the right to tidy up the table.
+
+For whole table at once.
+Add space  inside cells with cellpadding.
+<table cellpadding="10">
+
+Add space inside the cells with cellspacing.
+<table cellspacing="10">
+
+
+
+
+
+
