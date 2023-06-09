@@ -1,0 +1,28 @@
+In the future, if you need to push to a particular branch,
+follow:
+1) check your branch with>git branch
+2) change to desired branch> git checkout branchname
+    -or create a new branch and then select the branch with git checkout (two options of -b and -c)
+3) check and make sure the desired branch>git branch
+4) git init
+5) git add .
+6) git commit -m "added demo9"
+7) git push
+    follow suggestions:
+        --set-upstream origin branchname
+        or
+         To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:main
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+To choose either option permanently, see push.default in 'git help config'.
+
+To avoid automatically configuring an upstream branch when its name
+won't match the local branch, see option 'simple' of branch.autoSetupMerge
+in 'git help config'.
+

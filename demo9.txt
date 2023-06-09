@@ -11,7 +11,9 @@ cmd last state
 
 Now lets save the changes to demo9.html and demo9.txt
 then we follow the 4 steps.
-
+Thaneshwar example different to mine. See mine below Thaneshwar.
+Thaneshwar
+----------
 >git init
 >git add .
 >git commit -m "added demo9"
@@ -32,3 +34,50 @@ Enumerating objects: n, done
 
 this should update our repo with the new branch after we commit and push the new branch
 check it.
+
+mine
+----
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git init
+Reinitialized existing Git repository in C:/Users/acepr/Music/slmean/meanhtmlclass1and2/.git/
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git add .
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git commit -m "added demo9"
+[PriyeshP 0a5d66a] added demo9
+ 4 files changed, 182 insertions(+), 1 deletion(-)
+ create mode 100644 createnewbranch.txt
+ create mode 100644 demo9.html
+ create mode 100644 demo9.txt
+
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:main
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+To choose either option permanently, see push.default in 'git help config'.
+
+To avoid automatically configuring an upstream branch when its name
+won't match the local branch, see option 'simple' of branch.autoSetupMerge
+in 'git help config'.
+
+<-- although mine gave me diffrent options I followed Thaneshwar cmd suggestion
+    to check if different then suggestion worked.
+    Another reason was that I wasn't quite sure whether to select HEAD:MAin or MAIN.
+    I Think 'MAIN' would have been the right choice.
+    Something to try next time.
+    For now I am glad that git push --set-upstream origin PriyeshP worked.
+    Now there are two branches showing 
+    main
+    PriyeshP
+    Note: PriyeshP branch will have demo9 files because thats the branch we pushed demo9 to,
+            main branch will only have upto demo8 or whatever changes we pushed to it last.
+     -->
+
+
+
