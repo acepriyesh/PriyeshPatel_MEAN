@@ -1,0 +1,12 @@
+<div> block element.
+<span> inline element 
+        is not a block element, 
+            it will not cover the null area.
+
+What is the difference between div and P and span?
+div and p are “block elements” (now redefined as Flow Content) 
+and span is an “inline element” (Phrasing Content).
+Yes, you may change the default presentation of these elements, 
+but there is a difference between “flow” versus “block”, and “phrasing” versus “inline”.
+https://stackoverflow.com/questions/16434706/what-is-the-difference-between-p-div-and-span-in-htmlxhtml
+

@@ -1,0 +1,15 @@
+<img> tag will need source to bring the content from
+<img src="animal image
+
+supposed to pad(copy) image address but NOT link address.
+
+if image in diff local folder
+go to properties only copy the file patch
+
+src="underline if a link"
+scr="from diff local folder no underline"
+
+
+
+
+to have background image have it inside the <head> element.
