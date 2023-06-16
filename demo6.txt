@@ -17,18 +17,20 @@ Again:
 Open Folder by 'File Explorer' in which the files you like to push to repo.
 File Explorer -> Desktop -> meanhtml -> folder open inside which you have your files for repo.
 Addressbar -> (delete file path) and type cmd -> enter
-This is the folder you want to work with in cmd
+This is the folder you want to work with in cmd for git
 
 c:\xxx\xxx\xxx\meanclasshtml>
 
 Need do the only following 4 steps when for the second time.
 
 1) git init				(initializes git)
-2) git add .				( '.' adds all files from this particular folder (full directory) with any changes saved to any other files)
+2) git add .				( '.' adds all files from this particular folder (full directory) 
+                        with any changes saved to any other files)
 3) git commit -m "first commit" 	(commit to git with "suitable name")
 	
-*(4))git branch -M main -> No need again.
-*(5))'git remote add origin' -> No need again because you are cummiting and pushing to the same repo as just now before.
+***(4))git branch -M main -> No need again.
+***(5))'git remote add origin' -> No need again because you are commiting and pushing 
+                                    to the same repo currently working with.
 
 4(6)) git push 				(push to git (as previously specified))
 

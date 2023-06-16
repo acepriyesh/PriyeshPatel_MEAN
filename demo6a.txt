@@ -4,13 +4,13 @@ Created a new repository
 
 Created a new local folder with files
 
-commit and push as like for the first time using cmd and git commands
+commit and push as like for the first time using the 6 cmd and git commands
 
 create/update files and exercise for commit push second time using cmd and git commands
 
-I did not delete my existing repo as it said 1 watcher,
+I did not delete my existing repo as it said 1 watcher, (I later realized default is 1, yourself)
 So I created a new repo as: Priyesh_Mean as requested by Thaneshawara
-then Created demo6a for exercise 1 - cmd -> first time git commands
+then Created file demo6a for exercise 1 - cmd -> first time git commands
 
 Microsoft Windows [Version 10.0.22621.1778]
 (c) Microsoft Corporation. All rights reserved.
@@ -41,7 +41,7 @@ C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git commit -m "first commit"
 
 C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git branch -M main
 
-C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git remote add origin git remote add origin https://github.com/acepriyesh/PriyeshPatel_MEAN.git
+C:\Users\acepr\Music\slmean\meanhtmlclass1and2>git remote add origin https://github.com/acepriyesh/PriyeshPatel_MEAN.git
 usage: git remote add [<options>] <name> <url>
 
     -f, --fetch           fetch the remote branches
