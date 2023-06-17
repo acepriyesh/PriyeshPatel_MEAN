@@ -1,0 +1,19 @@
+Audio/videos
+
+audio:  .mp3
+
+
+video:  .mp3
+
+video element is not a selfclosing tag like <img>
+<video> </video> needs to be closed
+
+source need to be NESTED in the video element as such
+    <video> <source src=""> </video>
+
+need to give it controls to function as a video
+    <video controls> <source src=""> </video>
+
+for youtube videos copy embedded code
+
+

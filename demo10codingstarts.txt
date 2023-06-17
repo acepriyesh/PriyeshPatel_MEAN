@@ -1,9 +1,10 @@
 tags <h1>to<h6>
-    html recognise only 1 space. 2 or more spaces and effectively n number of lines are ignored.
+    html recognise only 1 space. 2 or more spaces and effectively n number of blank 
+    lines are ignored.
     <br/> break or like break tag is used to start a new line. from very next line.
     <p> for paragraph tag. paragraph can have n number of words and lines,
-        but remember the rules of spacing.
-        New line starts after skipping one.
+        but remember the rules of spacing for block elements.
+        P is a block element. New line starts after skipping one.
     <hr> horiaontal line. starts after a line gap between just like <p>
     </> close tags with slash
     some tags are self closing and we do not have to close them. e.g. br, hr, img etc 

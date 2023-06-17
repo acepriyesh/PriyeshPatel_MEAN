@@ -1,0 +1,35 @@
+links
+
+need anchor tag
+<a>Link</a>     Not eanough
+
+<a href="">
+Click
+</a> Need href. 
+    Now it became a link.
+
+<a href="demo12.html">
+Click
+</a> 
+    Now the click will link to and open demo12.html
+
+<a href="demo12.html" target="self">
+Click
+</a>
+    Opens link in the same tab. By default also.
+
+<a href="demo12.html" target="_blank">
+Click
+</a>
+    Opens link in a new tab.
+
+<h1> Hi Click here for Home Page </h1>
+    can make any part of text within heading or paragraph into a link.
+
+    e.g.    <h1> Hi Click here for <a href="">Home Page</a></h1>
+            text: 'Home Page' is made into a link.
+
+%   ratio resize
+    relevant to block size.
+    e.g width of an image
+

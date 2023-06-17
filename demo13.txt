@@ -1,7 +1,5 @@
-<div> block element.
-<span> inline element 
-        is not a block element, 
-            it will not cover the null area.
+
+
 
 What is the difference between div and P and span?
 div and p are “block elements” (now redefined as Flow Content) 
@@ -9,4 +7,20 @@ and span is an “inline element” (Phrasing Content).
 Yes, you may change the default presentation of these elements, 
 but there is a difference between “flow” versus “block”, and “phrasing” versus “inline”.
 https://stackoverflow.com/questions/16434706/what-is-the-difference-between-p-div-and-span-in-htmlxhtml
+
+
+<div> block element. cover the whole block from left to right.
+        can be seen when applying background color.
+
+<div style="">
+This style will be applied to whole division.
+Be it color (to text)
+or background color, which also can be customized with a different color to text.
+Then whether we can style something differently within the division or not we will see later
+and to experiment and see.
+
+<span> inline element. only cover the area used. it will not cover the null/blank area.
+        executes in the same line. 
+        second span element can start just behind (on the right of) the previous one.
+        can be seen when applying color.
 

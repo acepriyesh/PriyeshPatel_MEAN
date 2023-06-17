@@ -6,26 +6,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
 <body>
-    <h1><h2><h3><h4><h5><h6>
-        <br>
-    <!-- -->
-        <p>    
-        
-        
-        <hr>
-    <img />
-    <ol>
-    <ul>
-    <li>
-    <table>
-    <th>
-    <td>
-    <tr>
-    cellspacing
-    colspan
-    rowspan
-    border
-    color
+
+<>      </>     closing tags
+
+< />    Self closing tags       
+
+<!-- -->    Comment in html
+
+Blocklevel elements
+        cover the whole block from left to right. can be seen by/when applying background color.
+
+Inline elements
+        only cover the area used. it will not cover the null/blank area.
+        second span element can start just behind (on the right of) the previous one.
+
+Child elements 
+        are nested wihitn parent elements
+        e.g. <html><head><title></title</head></html>
+             <h1><p>/<p></h1>
+
+<h1>    <h2>    <h3>    <h4>    <h5>    <h6>    Heading
+
+<br />  Break   (self-closing tag)
     
+<!-- -->    Comment in html
+  
+<p>     Paragraph    A Block element, redefined as flow content but some differences with Block
+
+<ol>    Ordered List can have attributes and its values
+        e.g. type="A",  ="a",    ="I",   ="i"
+
+attribute       a part of element       must have a value assigned to it
+        e.g.    type="A",       color="orange"
+
+value           of the attribute        must be assigned to an attribute
+        e.g     ="a",   ="disc"     :red    :right
+
+<li>    Item listed
+              
+<ul>    Unordered list
+        type  =   "dic"   "circle"    "square"
+
+<hr />  Horizontal line
+   
+<table>   Table 
+        border = "value" (numerical, higher the value thicker the border of the table)
+
+<caption>
+        to give a title to your table. <legend> is to give title to your <fieldset> in forms.
+        It must be just below the <table> element.
+        https://stackoverflow.com/questions/4990300/is-it-possible-to-use-a-caption-tag-in-a-form
+
+<tr>   Table row
+   
+<th>   Table Heading (Column Heading)
+     
+<td>   Table data (in each cell)
     
-    <div>
+rowspan -attribute of td <td rowspan=>
+        merge rows (verticle merge, spans with below)
+   
+colspan -attribute of td <td colspan=>
+        merge columns (horizontal merge, spans to right)
+  
+cellspacing
+        between indivudual adjacent cells.
+
+cellpadding
+        between cell's border and the content present in cell.
+
+color
+        to text         can be separately customized with bgcolor (background)
+
+bgcolor=""      for a background color
+        HTML syntax      can be separately customized with text color
+
+background-color:
+        JS syntax
+
+<div>   for a division/container/like a section(<section> different) is an example of block level elements
+
+<span>  span    An Inline element
+
+<img /> image   must have: attributes and their values as needed
+        src=    location of image (link to http:, or file path)
+        alt=    description of image, specially for just in case the image does not load
+        width=  as desired
+        height= as desired
+        ...and much more
+
+%   ratio resize value
+        :n%
+        - relevant to block size.
+        e.g width of an image
+
+<style> 
+        JS element              <style>property:value{  }</style>       
+        HTML attribute          style=""
+
+<a>     anchor element
+        to link to something somewhere
+        can also be applied to text within heading 
+        <h1> text one two <a href="filepath">three</a>four</h1>
+        and paragraph elements same way.
+        can also NEST image<img> element as so within the anchor element like so
+        to make an image itself a link
+        
+        <a href="">
+            <img src="">
+        </a> 
+                
+
+href    attribute of anchor element
+        hyperlink reference to
+
+=""     value           all values need to be assigned to its attribute
+        ="https://www"  absolute path
+        ="/file"        relative path
+
+absolute path   do research 
+relative path   do research
+
+target  attribute
+        where to
+
+="self"       value assigned to target attribute
+        opens link in same tab. 
+        Also even if target="self" not assigned, by default it will open the link in the same tab
+
+="_blank"     value assigned to target attribute
+        opens link in a new tab 
+
+<Audio> not self closing like <img />
+        for sound files .mp3
+        its source element need to be nested in the audio element
+
+<video> not self closing like <img />
+        for video .mp4
+        its source element need to be Nested in the video element
+        for youtube videos copy embedded code.
+
+controls     attribute
+        for the video element to work and video be video.
+
+<source />   
+        Nests within audio/video elements.
+        needs src="" attribute.
+
+<form>  
+        must be used for capturing data properly.
+        to get information from users with the help of <input>
+        
+<input />   for forms.
+        to capture information from the user in several ways
+        type="" with using type.
+        e.g. text, email, password, number, radio button, checkbox, file, etc.
+
+placeholder for input
+        text is displayed in the input box as a guideline
+        to the user for what information is expected in it.
+        e.g. 'Enter first name'. will appear inside the input box.
+
+radio   buttons
+        when answer can be one only from choice
+
+name    attribute
+        of same definition (user defined name) must be assigned to all "radio" 
+        so that more than one cannot be selected
+
+checkbox attribute
+        user input when answer options selected can be more than one
+
+<select>     must have <option> as a child
+        for menu option
+
+<option>     must be as a child of select
+        for options to give e.g. text, numbers, etc.
+        one <option> is used for every option
+
+<textarea>
+        visible box to fill in the text
+        size can be customized with cols="" (columns for width) and rows="" (for height) attributes
+
+cols    attribute when used for <textarea>
+        used for sizing width of text area
+
+rows    attribute when used for <textarea>
+        used for sizing height of text area       
+
+submit  button
+        <input type="submit"> creates a button with 'text' by default
+        submit has submitting property set by default but must NEST within <form>
+
+register button
+        as above for registering
+
+reset   button
+        as above for resetting
+
+scroller
+        default html feauture
+        but can be customized
+
+<fieldset>    division
+        is used to separate out the different sections of the form
+        fieldset wraps a border around its children or nested elements
+        personal information would appear in a separate box
+        from address information etc.
+
+<legend>    to fieldset for forms as caption is to table. 
+        tilte to the fieldset.
+        https://stackoverflow.com/questions/4990300/is-it-possible-to-use-a-caption-tag-in-a-form
+
+
+
+
+
+
+
+
+
+

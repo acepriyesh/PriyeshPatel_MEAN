@@ -1,1 +1,89 @@
-form tags
+form
+
+forms are used to get information from the user with <input>
+forms are sometimes designed like a table.
+    for that abviously <table><tr><th><td> such elements must be used.
+
+<form></form>
+
+by specifying <input> which must Nest within <form>
+
+Each input type specified is also an identification for the database to deal with accordingly.
+
+<input type="text"
+    a rectengular box is created to enter text
+placeholder for guideline text as for what information needs to be entered.
+
+<input box can be customized with an example below:
+style="width: 300px; height:   100px; border-radius: 5px solid">
+
+        type="email"
+    entry must be entered in an email format according to the email format guidelines.
+
+        type="password"
+    password is shown as dots or asterisks but not displayed.
+
+        type="number"
+    can be used per needs.
+    e.g. Age, date, telephone etc
+
+        type="date"
+    a calender is provided to selt a date from
+
+        type="time"
+    hour and min template given. for when a time information is required.
+    may be customized for more detailed information.
+    
+        type="tel"
+    is used for telephone number. also type="number" can be used too.
+    
+        type="radio"
+    When only on option is to be selected
+    e.g. for Gender, seniority within organization, etc.
+
+        type="checkbox"
+    When more than one options can be expected for an answer.
+
+        type="file"
+    to upload a file.
+Above are a few examples of many types.
+
+select and options to select from can be used in anyway the design of the requirement has to be.
+e.g.
+<select>
+ <option>jan</option>
+ <option>feb</option>
+</select>
+
+<textarea>
+        visible box to fill in the text
+        size can be customized with cols="" (columns for width) and rows="" (for height) attributes
+
+cols    attribute when used for <textarea>
+        used for sizing width of text area
+
+rows    attribute when used for <textarea>
+        used for sizing height of text area       
+
+submit  button
+        <input type="submit"> creates a button with 'text' by default
+        submit has submitting property set by default but must NEST within <form>
+
+register button
+        as above for registering
+
+reset   button
+        as above for resetting
+
+scroller
+        default html feauture
+        but can be customized
+
+<fieldset>    division
+        is used to separate out the different sections of the form
+        fieldset wraps a border around its children or nested elements
+        personal information would appear in a separate box
+        from address information etc.
+
+<legend>    to fieldset as caption is to table.
+        tilte to the fieldset.

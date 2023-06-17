@@ -1,15 +1,19 @@
 <img> tag will need source to bring the content from
-<img src="animal image
+<img src="animal image">
 
-supposed to pad(copy) image address but NOT link address.
+If the image or any file is in the same folder as your .html file:
+        you only need to mention the file name with .xtn (its extension or file type)
+
+If the image is located remotely on the web:
+        you need to specify the image 
+            NOT 'copy link address'.
+            ^^^
 
 if image in diff local folder
-go to properties only copy the file patch
+go to properties only copy the file path
 
-src="underline if a link"
-scr="from diff local folder no underline"
+src="copy image address" is correct.
+src="copy link address does not work"
 
-
-
-
-to have background image have it inside the <head> element.
+google: copy link address
+firefox: copy link 

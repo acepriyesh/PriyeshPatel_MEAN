@@ -11,7 +11,7 @@ ordered, unordered,
     6) NameSix <br>
     7) NameSeven <br>
    -->
-    <ol> List in order of ascending numbers by default
+    <ol> List by numbers in ascending order, by default.
     <ol type="A"> List in order of ascending CAPITAL letters by type selected
                 continues with AA after Z. 
                 continues with BA-BZ after AZ.
